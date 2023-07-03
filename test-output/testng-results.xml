@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51163" started-at="2023-06-18T20:36:17 IST" finished-at="2023-06-18T20:37:09 IST">
+    <groups>
+      <group name="Regression">
+        <method signature="AdminUserTest.verifyUserCanAbleToAddNewUserInAdminUserPage()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.AdminUserTest@765d7657]" name="verifyUserCanAbleToAddNewUserInAdminUserPage" class="com.obsqura.rMartMarket.SevenRmartSuperMarket.AdminUserTest"/>
+        <method signature="HomeTest.verifyWhetherUserCanAbleToLogOutFromApplication()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.HomeTest@51399530]" name="verifyWhetherUserCanAbleToLogOutFromApplication" class="com.obsqura.rMartMarket.SevenRmartSuperMarket.HomeTest"/>
+        <method signature="LoginTest.verifyWhetherTheUserIsAbleToLogInwithValidUsernameAndValidPasswordWhileClickingOnSignInButton()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest@351d00c0]" name="verifyWhetherTheUserIsAbleToLogInwithValidUsernameAndValidPasswordWhileClickingOnSignInButton" class="com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest"/>
+        <method signature="ManageDeliveryBoyTest.verifyWhetherUserCanAbleToAddNewDeleveryBoy()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageDeliveryBoyTest@443118b0]" name="verifyWhetherUserCanAbleToAddNewDeleveryBoy" class="com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageDeliveryBoyTest"/>
+        <method signature="ManageLocationTest.verifyWhetherLocationIsUpdatedInLocationPage()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageLocationTest@74235045]" name="verifyWhetherLocationIsUpdatedInLocationPage" class="com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageLocationTest"/>
+        <method signature="ManageNewsTest.verifyWhetherUserCanAbleToUPdateNewsInManageNewsPage()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageNewsTest@618b19ad]" name="verifyWhetherUserCanAbleToUPdateNewsInManageNewsPage" class="com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageNewsTest"/>
+        <method signature="ManageOrderTest.verifyWhetherUserCanAbleToUpdateDateFromManageOrderPage()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageOrderTest@2d3379b4]" name="verifyWhetherUserCanAbleToUpdateDateFromManageOrderPage" class="com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageOrderTest"/>
+        <method signature="ManagePageTest.verifyWhetherUserCanAbleToEditManageInfopage()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManagePageTest@30c15d8b]" name="verifyWhetherUserCanAbleToEditManageInfopage" class="com.obsqura.rMartMarket.SevenRmartSuperMarket.ManagePageTest"/>
+        <method signature="ManageUserTest.verifyWhetherUserCanAbleToSearchUsersInManageUserPage(java.lang.String)[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageUserTest@5e0e82ae]" name="verifyWhetherUserCanAbleToSearchUsersInManageUserPage" class="com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageUserTest"/>
+        <method signature="MobileSliderTest.verifyUserCanAbleToUploadFileInMobileSlider()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.MobileSliderTest@6771beb3]" name="verifyUserCanAbleToUploadFileInMobileSlider" class="com.obsqura.rMartMarket.SevenRmartSuperMarket.MobileSliderTest"/>
+        <method signature="LoginTest.verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndValidPasswordWhileClickingOnSignInButton()[pri:2, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest@351d00c0]" name="verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndValidPasswordWhileClickingOnSignInButton" class="com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest"/>
+        <method signature="ManagePageTest.verifyWhetherUserCanAbleToDeleteTitleFromManagePage()[pri:2, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManagePageTest@30c15d8b]" name="verifyWhetherUserCanAbleToDeleteTitleFromManagePage" class="com.obsqura.rMartMarket.SevenRmartSuperMarket.ManagePageTest"/>
+        <method signature="LoginTest.verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndInValidPasswordWhileClickingOnSignInButton(java.lang.String,java.lang.String)[pri:4, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest@351d00c0]" name="verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndInValidPasswordWhileClickingOnSignInButton" class="com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="LoginTest.verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndInValidPasswordWhileClickingOnSignInButtonUsingDataProvider(java.lang.String,java.lang.String)[pri:5, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest@351d00c0]" name="verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndInValidPasswordWhileClickingOnSignInButtonUsingDataProvider" class="com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="51163" started-at="2023-06-18T20:36:17 IST" finished-at="2023-06-18T20:37:09 IST">
+      <class name="com.obsqura.rMartMarket.SevenRmartSuperMarket.ManagePageTest">
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManagePageTest@30c15d8b]" name="initilizeBrowser" is-config="true" duration-ms="1560" started-at="2023-06-18T20:36:52 IST" finished-at="2023-06-18T20:36:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="verifyWhetherUserCanAbleToEditManageInfopage()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManagePageTest@30c15d8b]" name="verifyWhetherUserCanAbleToEditManageInfopage" duration-ms="1485" started-at="2023-06-18T20:36:53 IST" description="TC009 Verify user can edit information by clicking new button" finished-at="2023-06-18T20:36:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWhetherUserCanAbleToEditManageInfopage -->
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManagePageTest@30c15d8b]" name="browserQuit" is-config="true" duration-ms="644" started-at="2023-06-18T20:36:55 IST" finished-at="2023-06-18T20:36:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWhetherUserCanAbleToEditManageInfopage status=SUCCESS method=ManagePageTest.verifyWhetherUserCanAbleToEditManageInfopage()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManagePageTest@30c15d8b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManagePageTest@30c15d8b]" name="initilizeBrowser" is-config="true" duration-ms="1544" started-at="2023-06-18T20:36:55 IST" finished-at="2023-06-18T20:36:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="verifyWhetherUserCanAbleToDeleteTitleFromManagePage()[pri:2, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManagePageTest@30c15d8b]" name="verifyWhetherUserCanAbleToDeleteTitleFromManagePage" duration-ms="974" started-at="2023-06-18T20:36:57 IST" description="TC009 Verify user can able to delete information by clicking delete button" finished-at="2023-06-18T20:36:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWhetherUserCanAbleToDeleteTitleFromManagePage -->
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManagePageTest@30c15d8b]" name="browserQuit" is-config="true" duration-ms="658" started-at="2023-06-18T20:36:58 IST" finished-at="2023-06-18T20:36:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWhetherUserCanAbleToDeleteTitleFromManagePage status=SUCCESS method=ManagePageTest.verifyWhetherUserCanAbleToDeleteTitleFromManagePage()[pri:2, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManagePageTest@30c15d8b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- com.obsqura.rMartMarket.SevenRmartSuperMarket.ManagePageTest -->
+      <class name="com.obsqura.rMartMarket.SevenRmartSuperMarket.AdminUserTest">
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.AdminUserTest@765d7657]" name="initilizeBrowser" is-config="true" duration-ms="1620" started-at="2023-06-18T20:36:37 IST" finished-at="2023-06-18T20:36:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="verifyUserCanAbleToAddNewUserInAdminUserPage()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.AdminUserTest@765d7657]" name="verifyUserCanAbleToAddNewUserInAdminUserPage" duration-ms="1395" started-at="2023-06-18T20:36:38 IST" description="TC009 Verify user can add new deliveryboy by clicking new button" finished-at="2023-06-18T20:36:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanAbleToAddNewUserInAdminUserPage -->
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.AdminUserTest@765d7657]" name="browserQuit" is-config="true" duration-ms="637" started-at="2023-06-18T20:36:40 IST" finished-at="2023-06-18T20:36:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserCanAbleToAddNewUserInAdminUserPage status=SUCCESS method=AdminUserTest.verifyUserCanAbleToAddNewUserInAdminUserPage()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.AdminUserTest@765d7657] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- com.obsqura.rMartMarket.SevenRmartSuperMarket.AdminUserTest -->
+      <class name="com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageDeliveryBoyTest">
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageDeliveryBoyTest@443118b0]" name="initilizeBrowser" is-config="true" duration-ms="1618" started-at="2023-06-18T20:36:33 IST" finished-at="2023-06-18T20:36:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="verifyWhetherUserCanAbleToAddNewDeleveryBoy()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageDeliveryBoyTest@443118b0]" name="verifyWhetherUserCanAbleToAddNewDeleveryBoy" duration-ms="1470" started-at="2023-06-18T20:36:34 IST" description="TC009 Verify user can add new deliveryboy by clicking new button" finished-at="2023-06-18T20:36:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWhetherUserCanAbleToAddNewDeleveryBoy -->
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageDeliveryBoyTest@443118b0]" name="browserQuit" is-config="true" duration-ms="646" started-at="2023-06-18T20:36:36 IST" finished-at="2023-06-18T20:36:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWhetherUserCanAbleToAddNewDeleveryBoy status=SUCCESS method=ManageDeliveryBoyTest.verifyWhetherUserCanAbleToAddNewDeleveryBoy()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageDeliveryBoyTest@443118b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageDeliveryBoyTest -->
+      <class name="com.obsqura.rMartMarket.SevenRmartSuperMarket.MobileSliderTest">
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.MobileSliderTest@6771beb3]" name="initilizeBrowser" is-config="true" duration-ms="1489" started-at="2023-06-18T20:37:02 IST" finished-at="2023-06-18T20:37:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="verifyUserCanAbleToUploadFileInMobileSlider()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.MobileSliderTest@6771beb3]" name="verifyUserCanAbleToUploadFileInMobileSlider" duration-ms="1572" started-at="2023-06-18T20:37:03 IST" description="TC009 Verify user can add new slider information by clicking new button" finished-at="2023-06-18T20:37:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanAbleToUploadFileInMobileSlider -->
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.MobileSliderTest@6771beb3]" name="browserQuit" is-config="true" duration-ms="626" started-at="2023-06-18T20:37:05 IST" finished-at="2023-06-18T20:37:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserCanAbleToUploadFileInMobileSlider status=SUCCESS method=MobileSliderTest.verifyUserCanAbleToUploadFileInMobileSlider()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.MobileSliderTest@6771beb3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- com.obsqura.rMartMarket.SevenRmartSuperMarket.MobileSliderTest -->
+      <class name="com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageOrderTest">
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageOrderTest@2d3379b4]" name="initilizeBrowser" is-config="true" duration-ms="1555" started-at="2023-06-18T20:36:47 IST" finished-at="2023-06-18T20:36:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="verifyWhetherUserCanAbleToUpdateDateFromManageOrderPage()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageOrderTest@2d3379b4]" name="verifyWhetherUserCanAbleToUpdateDateFromManageOrderPage" duration-ms="1972" started-at="2023-06-18T20:36:49 IST" description="TC009 Verify user can add new slider information by clicking new button" finished-at="2023-06-18T20:36:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWhetherUserCanAbleToUpdateDateFromManageOrderPage -->
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageOrderTest@2d3379b4]" name="browserQuit" is-config="true" duration-ms="646" started-at="2023-06-18T20:36:51 IST" finished-at="2023-06-18T20:36:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWhetherUserCanAbleToUpdateDateFromManageOrderPage status=SUCCESS method=ManageOrderTest.verifyWhetherUserCanAbleToUpdateDateFromManageOrderPage()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageOrderTest@2d3379b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageOrderTest -->
+      <class name="com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageLocationTest">
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageLocationTest@74235045]" name="initilizeBrowser" is-config="true" duration-ms="1637" started-at="2023-06-18T20:36:40 IST" finished-at="2023-06-18T20:36:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="verifyWhetherLocationIsUpdatedInLocationPage()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageLocationTest@74235045]" name="verifyWhetherLocationIsUpdatedInLocationPage" duration-ms="1776" started-at="2023-06-18T20:36:42 IST" description="TC009 Verify user can add Location information by clicking new button" finished-at="2023-06-18T20:36:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWhetherLocationIsUpdatedInLocationPage -->
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageLocationTest@74235045]" name="browserQuit" is-config="true" duration-ms="649" started-at="2023-06-18T20:36:44 IST" finished-at="2023-06-18T20:36:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWhetherLocationIsUpdatedInLocationPage status=SUCCESS method=ManageLocationTest.verifyWhetherLocationIsUpdatedInLocationPage()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageLocationTest@74235045] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageLocationTest -->
+      <class name="com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest">
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest@351d00c0]" name="initilizeBrowser" is-config="true" duration-ms="2842" started-at="2023-06-18T20:36:17 IST" finished-at="2023-06-18T20:36:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="verifyWhetherTheUserIsAbleToLogInwithValidUsernameAndValidPasswordWhileClickingOnSignInButton()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest@351d00c0]" name="verifyWhetherTheUserIsAbleToLogInwithValidUsernameAndValidPasswordWhileClickingOnSignInButton" duration-ms="1315" started-at="2023-06-18T20:36:20 IST" description="TC009 verify Whether The User Is Able To LogIn with Valid Username And Valid Password While Clicking OnS ignIn Button" finished-at="2023-06-18T20:36:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWhetherTheUserIsAbleToLogInwithValidUsernameAndValidPasswordWhileClickingOnSignInButton -->
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest@351d00c0]" name="browserQuit" is-config="true" duration-ms="653" started-at="2023-06-18T20:36:22 IST" finished-at="2023-06-18T20:36:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWhetherTheUserIsAbleToLogInwithValidUsernameAndValidPasswordWhileClickingOnSignInButton status=SUCCESS method=LoginTest.verifyWhetherTheUserIsAbleToLogInwithValidUsernameAndValidPasswordWhileClickingOnSignInButton()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest@351d00c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest@351d00c0]" name="initilizeBrowser" is-config="true" duration-ms="1712" started-at="2023-06-18T20:36:22 IST" finished-at="2023-06-18T20:36:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndValidPasswordWhileClickingOnSignInButton()[pri:2, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest@351d00c0]" name="verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndValidPasswordWhileClickingOnSignInButton" duration-ms="427" started-at="2023-06-18T20:36:24 IST" description="TC009 Verify user can add new deliveryboy by clicking new button" finished-at="2023-06-18T20:36:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndValidPasswordWhileClickingOnSignInButton -->
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest@351d00c0]" name="browserQuit" is-config="true" duration-ms="631" started-at="2023-06-18T20:36:24 IST" finished-at="2023-06-18T20:36:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndValidPasswordWhileClickingOnSignInButton status=SUCCESS method=LoginTest.verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndValidPasswordWhileClickingOnSignInButton()[pri:2, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest@351d00c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest@351d00c0]" name="initilizeBrowser" is-config="true" duration-ms="1574" started-at="2023-06-18T20:36:25 IST" finished-at="2023-06-18T20:36:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndInValidPasswordWhileClickingOnSignInButton(java.lang.String,java.lang.String)[pri:4, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest@351d00c0]" name="verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndInValidPasswordWhileClickingOnSignInButton" duration-ms="315" started-at="2023-06-18T20:36:27 IST" description="TC009 Verify user Is Able To Log In with InValid Username And InValid Password While Clicking On SignIn Button" finished-at="2023-06-18T20:36:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndInValidPasswordWhileClickingOnSignInButton -->
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest@351d00c0]" name="browserQuit" is-config="true" duration-ms="648" started-at="2023-06-18T20:36:27 IST" finished-at="2023-06-18T20:36:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndInValidPasswordWhileClickingOnSignInButton status=SUCCESS method=LoginTest.verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndInValidPasswordWhileClickingOnSignInButton(java.lang.String,java.lang.String)[pri:4, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest@351d00c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest@351d00c0]" name="initilizeBrowser" is-config="true" duration-ms="1629" started-at="2023-06-18T20:36:28 IST" finished-at="2023-06-18T20:36:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndInValidPasswordWhileClickingOnSignInButtonUsingDataProvider(java.lang.String,java.lang.String)[pri:5, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest@351d00c0]" name="verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndInValidPasswordWhileClickingOnSignInButtonUsingDataProvider" duration-ms="316" started-at="2023-06-18T20:36:29 IST" description="TC004 Verify users can able to login using Invalid credentials" data-provider="SearchProvider" finished-at="2023-06-18T20:36:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Krishna]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndInValidPasswordWhileClickingOnSignInButtonUsingDataProvider -->
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest@351d00c0]" name="browserQuit" is-config="true" duration-ms="642" started-at="2023-06-18T20:36:30 IST" finished-at="2023-06-18T20:36:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndInValidPasswordWhileClickingOnSignInButtonUsingDataProvider status=SUCCESS method=LoginTest.verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndInValidPasswordWhileClickingOnSignInButtonUsingDataProvider(java.lang.String,java.lang.String)[pri:5, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest@351d00c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest@351d00c0]" name="initilizeBrowser" is-config="true" duration-ms="1619" started-at="2023-06-18T20:36:30 IST" finished-at="2023-06-18T20:36:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndInValidPasswordWhileClickingOnSignInButtonUsingDataProvider(java.lang.String,java.lang.String)[pri:5, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest@351d00c0]" name="verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndInValidPasswordWhileClickingOnSignInButtonUsingDataProvider" duration-ms="295" started-at="2023-06-18T20:36:32 IST" description="TC004 Verify users can able to login using Invalid credentials" data-provider="SearchProvider" finished-at="2023-06-18T20:36:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aparna]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndInValidPasswordWhileClickingOnSignInButtonUsingDataProvider -->
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest@351d00c0]" name="browserQuit" is-config="true" duration-ms="661" started-at="2023-06-18T20:36:32 IST" finished-at="2023-06-18T20:36:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndInValidPasswordWhileClickingOnSignInButtonUsingDataProvider status=SUCCESS method=LoginTest.verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndInValidPasswordWhileClickingOnSignInButtonUsingDataProvider(java.lang.String,java.lang.String)[pri:5, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest@351d00c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest -->
+      <class name="com.obsqura.rMartMarket.SevenRmartSuperMarket.HomeTest">
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.HomeTest@51399530]" name="initilizeBrowser" is-config="true" duration-ms="1620" started-at="2023-06-18T20:37:06 IST" finished-at="2023-06-18T20:37:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="verifyWhetherUserCanAbleToLogOutFromApplication()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.HomeTest@51399530]" name="verifyWhetherUserCanAbleToLogOutFromApplication" duration-ms="738" started-at="2023-06-18T20:37:07 IST" description="TC009 Verify user can abel to logout by clicking logout button" finished-at="2023-06-18T20:37:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWhetherUserCanAbleToLogOutFromApplication -->
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.HomeTest@51399530]" name="browserQuit" is-config="true" duration-ms="650" started-at="2023-06-18T20:37:08 IST" finished-at="2023-06-18T20:37:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWhetherUserCanAbleToLogOutFromApplication status=SUCCESS method=HomeTest.verifyWhetherUserCanAbleToLogOutFromApplication()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.HomeTest@51399530] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- com.obsqura.rMartMarket.SevenRmartSuperMarket.HomeTest -->
+      <class name="com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageUserTest">
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageUserTest@5e0e82ae]" name="initilizeBrowser" is-config="true" duration-ms="1520" started-at="2023-06-18T20:36:59 IST" finished-at="2023-06-18T20:37:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="verifyWhetherUserCanAbleToSearchUsersInManageUserPage(java.lang.String)[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageUserTest@5e0e82ae]" name="verifyWhetherUserCanAbleToSearchUsersInManageUserPage" duration-ms="1278" started-at="2023-06-18T20:37:00 IST" description="TC009 Verify user can able to search information by clicking new button" data-provider="dataFromExcel" finished-at="2023-06-18T20:37:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sou@yahoo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWhetherUserCanAbleToSearchUsersInManageUserPage -->
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageUserTest@5e0e82ae]" name="browserQuit" is-config="true" duration-ms="636" started-at="2023-06-18T20:37:01 IST" finished-at="2023-06-18T20:37:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWhetherUserCanAbleToSearchUsersInManageUserPage status=SUCCESS method=ManageUserTest.verifyWhetherUserCanAbleToSearchUsersInManageUserPage(java.lang.String)[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageUserTest@5e0e82ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageUserTest -->
+      <class name="com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageNewsTest">
+        <test-method status="PASS" signature="initilizeBrowser(java.lang.String)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageNewsTest@618b19ad]" name="initilizeBrowser" is-config="true" duration-ms="1554" started-at="2023-06-18T20:36:44 IST" finished-at="2023-06-18T20:36:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method status="PASS" signature="verifyWhetherUserCanAbleToUPdateNewsInManageNewsPage()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageNewsTest@618b19ad]" name="verifyWhetherUserCanAbleToUPdateNewsInManageNewsPage" duration-ms="985" started-at="2023-06-18T20:36:46 IST" description="TC009 Verify user can add news by clicking new button" finished-at="2023-06-18T20:36:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWhetherUserCanAbleToUPdateNewsInManageNewsPage -->
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageNewsTest@618b19ad]" name="browserQuit" is-config="true" duration-ms="635" started-at="2023-06-18T20:36:47 IST" finished-at="2023-06-18T20:36:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWhetherUserCanAbleToUPdateNewsInManageNewsPage status=SUCCESS method=ManageNewsTest.verifyWhetherUserCanAbleToUPdateNewsInManageNewsPage()[pri:1, instance:com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageNewsTest@618b19ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- com.obsqura.rMartMarket.SevenRmartSuperMarket.ManageNewsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

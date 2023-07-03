@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Grouping]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest">
+        <methods>
+          <include name="initilizeBrowser"/>
+          <include name="verifyWhetherTheUserIsAbleToLogInwithValidUsernameAndValidPasswordWhileClickingOnSignInButton"/>
+          <include name="verifyWhetherTheUserIsAbleToLogInwithInValidUsernameAndValidPasswordWhileClickingOnSignInButton"/>
+        </methods>
+      </class> <!-- com.obsqura.rMartMarket.SevenRmartSuperMarket.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Grouping] -->
